@@ -589,6 +589,10 @@ header.scrolled .nav-link-cta {
   z-index: 1;
 }
 
+.nav-lang-mobile {
+  display: none;
+}
+
 .nav-mobile-header {
   display: none;
 }
