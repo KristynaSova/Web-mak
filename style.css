@@ -645,6 +645,36 @@ header.menu-open .logo {
     display: flex;
   }
 
+  /* Přepínač jazyků — na mobilu schovat fixní, zobrazit v overlay */
+  .lang-switcher {
+    display: none;
+  }
+
+  .nav-lang-mobile {
+    display: flex;
+    gap: 10px;
+    padding: 16px 0 8px;
+    border-top: 1px solid rgba(254,250,224,0.15);
+    margin-top: 8px;
+  }
+
+  .nav-lang-mobile a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgba(254,250,224,0.6);
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    transition: color 0.2s, background 0.2s;
+  }
+
+  .nav-lang-mobile a:hover,
+  .nav-lang-mobile a.lang-active {
+    color: #fefae0;
+    background: rgba(254,250,224,0.1);
+  }
 
   .nav-mobile-header {
     display: none;
