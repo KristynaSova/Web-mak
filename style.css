@@ -314,7 +314,7 @@ header.scrolled .nav-link-cta {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: var(--color-white);
+  color: var(--color-secondary);
   margin-bottom: 12px;
   animation: fadeInUp 0.8s ease forwards;
 }
@@ -853,16 +853,17 @@ header.menu-open .logo {
   white-space: nowrap;
 }
 
-header.scrolled .lang-current {
+.lang-switcher.scrolled .lang-current {
   color: var(--color-primary);
-  border-color: rgba(26,35,16,0.25);
+  background: rgba(254,250,224,0.95);
+  border-color: rgba(26,35,16,0.15);
 }
 
 .lang-current:hover {
   background: rgba(255,255,255,0.12);
 }
 
-header.scrolled .lang-current:hover {
+.lang-switcher.scrolled .lang-current:hover {
   background: rgba(26,35,16,0.07);
 }
 

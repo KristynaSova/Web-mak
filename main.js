@@ -39,10 +39,13 @@ if (langSwitcher) {
 // Header scroll effect
 window.addEventListener("scroll", () => {
   const header = document.querySelector("header");
+  const langSwitcherEl = document.getElementById("langSwitcher");
   if (window.scrollY > 50) {
     header.classList.add("scrolled");
+    if (langSwitcherEl) langSwitcherEl.classList.add("scrolled");
   } else {
     header.classList.remove("scrolled");
+    if (langSwitcherEl) langSwitcherEl.classList.remove("scrolled");
   }
 });
 
