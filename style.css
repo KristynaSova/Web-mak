@@ -321,7 +321,7 @@ header.scrolled .nav-link-cta {
 
 .hero h1 {
   font-size: clamp(2.5rem, 5vw, 4.5rem);
-  color: var(--color-white);
+  color: #fefae0;
   margin-bottom: 24px;
   font-weight: 700;
   animation: fadeInUp 1s ease 0.2s forwards;
@@ -765,6 +765,8 @@ header.menu-open .logo {
     width: 95%;
     padding: 12px 20px;
   }
+
+  h1 br { display: none; }
 
   .logo {
     white-space: nowrap;
