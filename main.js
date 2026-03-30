@@ -49,6 +49,24 @@ window.addEventListener("scroll", () => {
   }
 });
 
+// Typografické opravy – jednopísmenné předložky a spojky nesmí zůstat na konci řádku
+function fixOrphans() {
+  const selector = 'p, li, h1, h2, h3, h4, td, th, figcaption';
+  document.querySelectorAll(selector).forEach(el => {
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null);
+    const textNodes = [];
+    while (walker.nextNode()) textNodes.push(walker.currentNode);
+    textNodes.forEach(node => {
+      // Nahraď mezeru za jednopísmennou předložkou/spojkou nedělitelnou mezerou
+      node.textContent = node.textContent.replace(
+        /(^|\s)([aAiIvVzZkKsStTuUoO])\s/g,
+        '$1$2\u00A0'
+      );
+    });
+  });
+}
+document.addEventListener('DOMContentLoaded', fixOrphans);
+
 // Smooth scroll for anchor links
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
