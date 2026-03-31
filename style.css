@@ -170,6 +170,7 @@ header {
   justify-content: space-between;
   align-items: center;
   transition: all 0.4s ease;
+  overflow: visible;
 }
 
 header.scrolled {
@@ -185,16 +186,26 @@ header.scrolled .nav-link {
 }
 
 .logo {
-  font-family: var(--font-heading);
-  font-weight: 700;
-  font-size: 1.2rem;
-  color: var(--color-primary);
   white-space: nowrap;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
 }
 
-header:not(.scrolled) .logo {
-  color: var(--color-white);
+.logo-img {
+  height: 80px;
+  width: auto;
+  display: block;
+  margin-top: -18px;
+  margin-bottom: -18px;
+}
+
+header:not(.scrolled) .logo-img {
+  filter: brightness(0) invert(1);
+}
+
+header.menu-open .logo-img {
+  filter: brightness(0) invert(1);
 }
 
 .nav-links {
