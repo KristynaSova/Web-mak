@@ -1,0 +1,22 @@
+/*
+  # Ochrana před clickjackingem — web nelze vložit do cizího iframu
+  X-Frame-Options: SAMEORIGIN
+
+  # Prohlížeč nebude hádat typ souboru — zabrání spuštění maskovaného skriptu
+  X-Content-Type-Options: nosniff
+
+  # Po prvním HTTPS spojení si prohlížeč zapamatuje pouze HTTPS (1 rok)
+  # preload: web lze přidat do seznamu preload HSTS v prohlížečích
+  # includeSubDomains: platí i pro subdomény (www, apod.)
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+  # Odesílá jen doménu (ne celou URL) při přechodu na jiný web
+  Referrer-Policy: strict-origin-when-cross-origin
+
+  # Omezení oprávnění prohlížeče — povoleno jen to, co web skutečně potřebuje
+  # camera, microphone, geolocation, payment — vše zakázáno pro ochranu uživatele
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()
+
+  # Omezení zdrojů obsahu — základní ochrana před XSS a injekcí cizího obsahu
+  # Upravte dle skutečných externích zdrojů webu (fonty, mapy, analytics apod.)
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-ancestors 'none';
