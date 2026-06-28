@@ -931,6 +931,7 @@ body.subpage .section[style*="var(--color-bg)"] .bento-icon {
   line-height: 1.15;
   margin: 16px 0 28px;
   max-width: 700px;
+  overflow-wrap: break-word;
 }
 
 .tradition-hero-lead {
@@ -1190,6 +1191,11 @@ body.subpage .section[style*="var(--color-bg)"] .bento-icon {
   .timeline-item[data-side="left"],
   .timeline-item[data-side="right"] {
     transform: translateY(20px);
+  }
+
+  .timeline-item[data-side="left"].visible,
+  .timeline-item[data-side="right"].visible {
+    transform: translateY(0);
   }
 
   .timeline-item {
