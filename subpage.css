@@ -1091,12 +1091,15 @@ body.subpage .section[style*="var(--color-bg)"] .bento-icon {
 
 .timeline-item[data-side="left"] .timeline-node {
   grid-column: 2;
-  grid-row: 1;
+  grid-row: 2;
+  align-self: start;
 }
 
 .timeline-item[data-side="left"] .timeline-year-badge {
   grid-column: 2;
-  grid-row: 2;
+  grid-row: 1;
+  align-self: start;
+  padding-bottom: 6px;
 }
 
 /* Card right side */
@@ -1107,12 +1110,15 @@ body.subpage .section[style*="var(--color-bg)"] .bento-icon {
 
 .timeline-item[data-side="right"] .timeline-node {
   grid-column: 2;
-  grid-row: 1;
+  grid-row: 2;
+  align-self: start;
 }
 
 .timeline-item[data-side="right"] .timeline-year-badge {
   grid-column: 2;
-  grid-row: 2;
+  grid-row: 1;
+  align-self: start;
+  padding-bottom: 6px;
 }
 
 /* The card itself */
