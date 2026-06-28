@@ -971,6 +971,7 @@ body.subpage .section[style*="var(--color-bg)"] .bento-icon {
   background-color: var(--color-primary);
   padding: 80px 0 100px;
   position: relative;
+  overflow-x: hidden;
 }
 
 /* Vertical line track */
@@ -1184,6 +1185,11 @@ body.subpage .section[style*="var(--color-bg)"] .bento-icon {
 @media (max-width: 900px) {
   .timeline-track {
     left: 28px;
+  }
+
+  .timeline-item[data-side="left"],
+  .timeline-item[data-side="right"] {
+    transform: translateY(20px);
   }
 
   .timeline-item {
