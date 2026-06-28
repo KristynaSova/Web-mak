@@ -1,0 +1,6 @@
+# Jazykově specifické 404 stránky
+# Pravidlo se spustí pouze pokud soubor na dané URL neexistuje
+
+/en/*    /en/404.html    404
+/de/*    /de/404.html    404
+/pl/*    /pl/404.html    404
