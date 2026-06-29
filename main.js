@@ -110,29 +110,42 @@ document.querySelectorAll('.accordion').forEach(accordion => {
   const body = accordion.querySelector('.accordion-body');
   if (!summary || !body) return;
 
+  let currentAnim = null;
+
   summary.addEventListener('click', e => {
     e.preventDefault();
+
+    // Zrušit probíhající animaci — odstraní i zmrazený fill-forwards stav
+    if (currentAnim) {
+      currentAnim.cancel();
+      currentAnim = null;
+    }
 
     if (!accordion.open) {
       accordion.setAttribute('open', '');
       const h = body.scrollHeight;
-      body.animate(
+      currentAnim = body.animate(
         [
           { height: '0px', opacity: '0', transform: 'translateY(-6px)' },
           { height: h + 'px', opacity: '1', transform: 'translateY(0)' }
         ],
         { duration: 350, easing: 'cubic-bezier(0.4, 0, 0.2, 1)' }
       );
+      currentAnim.onfinish = () => { currentAnim = null; };
     } else {
       const h = body.scrollHeight;
-      const anim = body.animate(
+      currentAnim = body.animate(
         [
           { height: h + 'px', opacity: '1', transform: 'translateY(0)' },
           { height: '0px', opacity: '0', transform: 'translateY(-6px)' }
         ],
         { duration: 280, easing: 'cubic-bezier(0.4, 0, 0.2, 1)', fill: 'forwards' }
       );
-      anim.onfinish = () => accordion.removeAttribute('open');
+      currentAnim.onfinish = () => {
+        accordion.removeAttribute('open');
+        currentAnim.cancel(); // Odstraní fill-forwards, aby příští otevření proběhlo čistě
+        currentAnim = null;
+      };
     }
   });
 });
