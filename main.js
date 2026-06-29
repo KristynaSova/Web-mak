@@ -104,6 +104,39 @@ revealElements.forEach((el) => {
   revealObserver.observe(el);
 });
 
+// Smooth accordion animation (details/summary)
+document.querySelectorAll('.accordion').forEach(accordion => {
+  const summary = accordion.querySelector('summary');
+  const body = accordion.querySelector('.accordion-body');
+  if (!summary || !body) return;
+
+  summary.addEventListener('click', e => {
+    e.preventDefault();
+
+    if (!accordion.open) {
+      accordion.setAttribute('open', '');
+      const h = body.scrollHeight;
+      body.animate(
+        [
+          { height: '0px', opacity: '0', transform: 'translateY(-6px)' },
+          { height: h + 'px', opacity: '1', transform: 'translateY(0)' }
+        ],
+        { duration: 350, easing: 'cubic-bezier(0.4, 0, 0.2, 1)' }
+      );
+    } else {
+      const h = body.scrollHeight;
+      const anim = body.animate(
+        [
+          { height: h + 'px', opacity: '1', transform: 'translateY(0)' },
+          { height: '0px', opacity: '0', transform: 'translateY(-6px)' }
+        ],
+        { duration: 280, easing: 'cubic-bezier(0.4, 0, 0.2, 1)', fill: 'forwards' }
+      );
+      anim.onfinish = () => accordion.removeAttribute('open');
+    }
+  });
+});
+
 // Contact Form Honeypot & Formspree (placeholder logic)
 const contactForm = document.querySelector("#contact-form");
 if (contactForm) {
