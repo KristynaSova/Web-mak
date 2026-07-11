@@ -223,15 +223,11 @@
           <!-- Rechter Panel — Formular -->
           <div class="contact-form-wrap">
             <form
-              action="https://formspree.io/f/YOUR_FORM_ID"
-              method="POST"
+              id="contact-form"
               class="contact-form"
               novalidate>
 
-              <!-- Honeypot anti-spam -->
-              <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
-              <input type="hidden" name="_subject" value="Neue Anfrage — Farma Černý" />
-              <input type="hidden" name="_language" value="de" />
+              <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
 
               <div class="form-grid">
                 <div class="form-group">
@@ -294,6 +290,7 @@
               <button type="submit" class="btn btn-secondary form-submit">
                 <i class="fas fa-paper-plane"></i> Anfrage senden
               </button>
+              <div id="form-feedback" role="alert" aria-live="polite" style="display:none"></div>
 
             </form>
           </div>

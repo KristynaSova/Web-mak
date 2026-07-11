@@ -160,14 +160,49 @@ if (contactForm) {
   const submitBtn = contactForm.querySelector('.form-submit');
   const feedback  = document.querySelector('#form-feedback');
 
+  const lang = document.documentElement.lang || 'cs';
+  const msgs = {
+    cs: {
+      success: '✓ Děkujeme za Váš zájem! Ozveme se Vám co nejdříve.',
+      error:   'Odeslání se nepodařilo. Zkuste to prosím znovu nebo nás kontaktujte přímo na e-mail.',
+      network: 'Nastala chyba sítě. Zkontrolujte připojení a zkuste to znovu.',
+      sending: 'Odesílám…',
+      submit:  'Odeslat poptávku',
+      subject: 'Nová poptávka — Farma Černý',
+    },
+    en: {
+      success: '✓ Thank you for your inquiry! We will get back to you as soon as possible.',
+      error:   'Submission failed. Please try again or contact us directly by email.',
+      network: 'Network error. Please check your connection and try again.',
+      sending: 'Sending…',
+      submit:  'Send Inquiry',
+      subject: 'New Inquiry — Farma Černý',
+    },
+    de: {
+      success: '✓ Vielen Dank für Ihre Anfrage! Wir melden uns so schnell wie möglich.',
+      error:   'Senden fehlgeschlagen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt per E-Mail.',
+      network: 'Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.',
+      sending: 'Wird gesendet…',
+      submit:  'Anfrage senden',
+      subject: 'Neue Anfrage — Farma Černý',
+    },
+    pl: {
+      success: '✓ Dziękujemy za zapytanie! Odpiszemy najszybciej, jak to możliwe.',
+      error:   'Wysyłanie nie powiodło się. Spróbuj ponownie lub skontaktuj się z nami bezpośrednio przez e-mail.',
+      network: 'Błąd sieci. Sprawdź połączenie i spróbuj ponownie.',
+      sending: 'Wysyłanie…',
+      submit:  'Wyślij zapytanie',
+      subject: 'Nowe zapytanie — Farma Černý',
+    },
+  };
+  const t = msgs[lang] || msgs.cs;
+
   contactForm.addEventListener('submit', async function (e) {
     e.preventDefault();
 
-    // Botcheck — honeypot checkbox; boti ho zaškrtnou, lidi ne
     const botcheck = contactForm.querySelector('[name="botcheck"]');
     if (botcheck && botcheck.checked) return;
 
-    // HTML5 validace — reportValidity zobrazí nativní chybové bublinky
     if (!contactForm.checkValidity()) {
       contactForm.reportValidity();
       return;
@@ -176,12 +211,10 @@ if (contactForm) {
     setSubmitting(true);
     hideFeedback();
 
-    // Sestavit FormData ze všech polí formuláře
     const data = new FormData(contactForm);
     data.append('access_key', WEB3FORMS_ACCESS_KEY);
-    data.append('subject',    'Nová poptávka — Farma Černý');
-    // from_name vezme hodnotu z pole "firma", nebo jako zálohu "jmeno"
-    data.append('from_name',  data.get('firma') || data.get('jmeno') || 'Farma Černý web');
+    data.append('subject',    t.subject);
+    data.append('from_name',  data.get('firma') || data.get('name') || data.get('jmeno') || 'Farma Černý web');
 
     try {
       const res  = await fetch('https://api.web3forms.com/submit', {
@@ -191,13 +224,13 @@ if (contactForm) {
       const json = await res.json();
 
       if (json.success) {
-        showFeedback('success', '✓ Děkujeme za Váš zájem! Ozveme se Vám co nejdříve.');
+        showFeedback('success', t.success);
         contactForm.reset();
       } else {
-        showFeedback('error', 'Odeslání se nepodařilo. Zkuste to prosím znovu nebo nás kontaktujte přímo na e-mail.');
+        showFeedback('error', t.error);
       }
     } catch {
-      showFeedback('error', 'Nastala chyba sítě. Zkontrolujte připojení a zkuste to znovu.');
+      showFeedback('error', t.network);
     } finally {
       setSubmitting(false);
     }
@@ -206,8 +239,8 @@ if (contactForm) {
   function setSubmitting(loading) {
     submitBtn.disabled  = loading;
     submitBtn.innerHTML = loading
-      ? '<i class="fas fa-spinner fa-spin"></i> Odesílám…'
-      : '<i class="fas fa-paper-plane"></i> Odeslat poptávku';
+      ? '<i class="fas fa-spinner fa-spin"></i> ' + t.sending
+      : '<i class="fas fa-paper-plane"></i> ' + t.submit;
   }
 
   function showFeedback(type, message) {
