@@ -227,6 +227,9 @@ body.subpage {
   letter-spacing: 1px;
   color: rgba(254, 250, 224, 0.6);
   width: 45%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 .specs-value {
@@ -235,6 +238,9 @@ body.subpage {
   font-size: 1rem;
   color: #fefae0;
   font-weight: 500;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 /* ——————————————————————————————
