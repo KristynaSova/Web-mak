@@ -1,7 +1,8 @@
 User-agent: *
-Disallow: /
-
-# Indexace dočasně zakázána - web ve vývoji
-# Az bude web hotový, nahradit za: Allow: /
+Allow: /
+Disallow: /ochrana-osobnich-udaju
+Disallow: /en/privacy-policy
+Disallow: /de/datenschutz
+Disallow: /pl/polityka-prywatnosci
 
 Sitemap: https://www.farmacerny.cz/sitemap.xml
