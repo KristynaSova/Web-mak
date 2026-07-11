@@ -399,6 +399,11 @@ body.subpage .section[style*="var(--color-bg)"] .bento-icon {
     height: 240px;
   }
 
+  .subpage-hero-full {
+    height: auto;
+    min-height: 100vh;
+  }
+
   .subpage-hero-full-content {
     padding-bottom: 60px;
   }
