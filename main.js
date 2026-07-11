@@ -150,15 +150,75 @@ document.querySelectorAll('.accordion').forEach(accordion => {
   });
 });
 
-// Contact Form Honeypot & Formspree (placeholder logic)
-const contactForm = document.querySelector("#contact-form");
+// ─── Web3Forms — access key ───────────────────────────────────────────────────
+// Při předání webu klientovi zde změňte klíč (nový klíč na web3forms.com/create)
+const WEB3FORMS_ACCESS_KEY = '5e67d880-8c37-4671-a2f1-e033277caa0a';
+
+// ─── Kontaktní formulář ───────────────────────────────────────────────────────
+const contactForm = document.querySelector('#contact-form');
 if (contactForm) {
-  contactForm.addEventListener("submit", function (e) {
-    const honeypot = document.querySelector("#honeypot").value;
-    if (honeypot) {
-      e.preventDefault();
-      console.log("Spam detected");
+  const submitBtn = contactForm.querySelector('.form-submit');
+  const feedback  = document.querySelector('#form-feedback');
+
+  contactForm.addEventListener('submit', async function (e) {
+    e.preventDefault();
+
+    // Botcheck — honeypot checkbox; boti ho zaškrtnou, lidi ne
+    const botcheck = contactForm.querySelector('[name="botcheck"]');
+    if (botcheck && botcheck.checked) return;
+
+    // HTML5 validace — reportValidity zobrazí nativní chybové bublinky
+    if (!contactForm.checkValidity()) {
+      contactForm.reportValidity();
       return;
     }
+
+    setSubmitting(true);
+    hideFeedback();
+
+    // Sestavit FormData ze všech polí formuláře
+    const data = new FormData(contactForm);
+    data.append('access_key', WEB3FORMS_ACCESS_KEY);
+    data.append('subject',    'Nová poptávka — Farma Černý');
+    // from_name vezme hodnotu z pole "firma", nebo jako zálohu "jmeno"
+    data.append('from_name',  data.get('firma') || data.get('jmeno') || 'Farma Černý web');
+
+    try {
+      const res  = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body:   data,
+      });
+      const json = await res.json();
+
+      if (json.success) {
+        showFeedback('success', '✓ Děkujeme za Váš zájem! Ozveme se Vám co nejdříve.');
+        contactForm.reset();
+      } else {
+        showFeedback('error', 'Odeslání se nepodařilo. Zkuste to prosím znovu nebo nás kontaktujte přímo na e-mail.');
+      }
+    } catch {
+      showFeedback('error', 'Nastala chyba sítě. Zkontrolujte připojení a zkuste to znovu.');
+    } finally {
+      setSubmitting(false);
+    }
   });
+
+  function setSubmitting(loading) {
+    submitBtn.disabled  = loading;
+    submitBtn.innerHTML = loading
+      ? '<i class="fas fa-spinner fa-spin"></i> Odesílám…'
+      : '<i class="fas fa-paper-plane"></i> Odeslat poptávku';
+  }
+
+  function showFeedback(type, message) {
+    feedback.textContent = message;
+    feedback.className   = 'form-feedback form-feedback--' + type;
+    feedback.style.display = 'block';
+    feedback.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  function hideFeedback() {
+    feedback.style.display = 'none';
+    feedback.className     = '';
+  }
 }

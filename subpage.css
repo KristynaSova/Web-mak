@@ -1471,3 +1471,25 @@ body.subpage .section[style*="var(--color-bg)"] .bento-icon {
   gap: 18px;
   max-width: 760px;
 }
+
+/* ── Zpětná vazba formuláře ─────────────────────────────────────────────────── */
+.form-feedback {
+  margin-top: 16px;
+  padding: 14px 18px;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.form-feedback--success {
+  background-color: #d1fae5;
+  color: #065f46;
+  border: 1px solid #6ee7b7;
+}
+
+.form-feedback--error {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+}

@@ -51,7 +51,7 @@
         "@type": "ContactPoint",
         "telephone": "+420-605-906-043",
         "contactType": "sales",
-        "email": "info@farmacerny.cz",
+        "email": "prodejmaku@seznam.cz",
         "availableLanguage": ["Czech", "German", "English", "Polish"]
       }
     ]
@@ -70,7 +70,7 @@
       "@type": "Organization",
       "name": "Farma Černý",
       "telephone": "+420-605-906-043",
-      "email": "info@farmacerny.cz"
+      "email": "prodejmaku@seznam.cz"
     }
   }
   </script>
@@ -172,7 +172,7 @@
           <!-- Levý panel — kontaktní info -->
           <div class="contact-info">
             <h3 class="contact-info-title">Obchodní oddělení</h3>
-            <p class="contact-info-name">Ing. Miluše Černá</p>
+            <p class="contact-info-name">Ing. Jiří Černý</p>
 
             <div class="contact-info-items">
               <a href="tel:+420605906043" class="contact-info-item">
@@ -182,11 +182,11 @@
                   <span class="contact-info-value">+420 605 906 043</span>
                 </div>
               </a>
-              <a href="mailto:info@farmacerny.cz" class="contact-info-item">
+              <a href="mailto:prodejmaku@seznam.cz" class="contact-info-item">
                 <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
                 <div>
                   <span class="contact-info-label">E-mail</span>
-                  <span class="contact-info-value">info@farmacerny.cz</span>
+                  <span class="contact-info-value">prodejmaku@seznam.cz</span>
                 </div>
               </a>
               <a href="https://maps.app.goo.gl/PicuKbN3SDHC4Dqx5" target="_blank" rel="noopener" class="contact-info-item">
@@ -218,16 +218,13 @@
 
           <!-- Pravý panel — formulář -->
           <div class="contact-form-wrap">
-            <!-- Formspree — nahraď YOUR_FORM_ID za skutečné ID z formspree.io -->
             <form
-              action="https://formspree.io/f/YOUR_FORM_ID"
-              method="POST"
+              id="contact-form"
               class="contact-form"
               novalidate>
 
-              <!-- Honeypot anti-spam -->
-              <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
-              <input type="hidden" name="_subject" value="Nová poptávka — Farma Černý" />
+              <!-- Web3Forms honeypot — boti zaškrtnou, legitimní uživatelé ne -->
+              <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
 
               <div class="form-grid">
                 <div class="form-group">
@@ -290,6 +287,9 @@
               <button type="submit" class="btn btn-secondary form-submit">
                 <i class="fas fa-paper-plane"></i> Odeslat poptávku
               </button>
+
+              <!-- Zpětná vazba po odeslání (skrytá, zobrazí JS) -->
+              <div id="form-feedback" role="alert" aria-live="polite" style="display:none"></div>
 
             </form>
           </div>
@@ -392,7 +392,7 @@
             </li>
             <li style="display: flex; gap: 10px; align-items: center; opacity: 0.8">
               <i class="fas fa-envelope" style="color: var(--color-secondary); flex-shrink: 0"></i>
-              <a href="mailto:info@farmacerny.cz" style="opacity: 1">info@farmacerny.cz</a>
+              <a href="mailto:prodejmaku@seznam.cz" style="opacity: 1">prodejmaku@seznam.cz</a>
             </li>
             <li style="display: flex; gap: 10px; align-items: center; opacity: 0.8">
               <i class="fas fa-phone" style="color: var(--color-secondary); flex-shrink: 0"></i>
