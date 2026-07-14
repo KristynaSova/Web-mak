@@ -5,4 +5,4 @@ Disallow: /en/privacy-policy
 Disallow: /de/datenschutz
 Disallow: /pl/polityka-prywatnosci
 
-Sitemap: https://www.farmacerny.cz/sitemap.xml
+Sitemap: https://czechbluepoppy.cz/sitemap.xml

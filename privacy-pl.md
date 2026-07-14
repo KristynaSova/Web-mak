@@ -1,4 +1,4 @@
-# Polityka prywatności — PL lokalizacja
+﻿# Polityka prywatności — PL lokalizacja
 > Plik źródłowy: `ochrana-osobnich-udaju.html`
 > Plik docelowy: `pl/polityka-prywatnosci.html`
 
@@ -12,7 +12,7 @@
 | URL (plik) | `pl/polityka-prywatnosci.html` |
 | `<title>` | `Polityka prywatności \| Farma Černý` |
 | `<meta description>` | `Dowiedz się, jakie dane osobowe przetwarza Farma Černý s.r.o., w jakim celu oraz jakie prawa przysługują Ci na mocy przepisów RODO.` |
-| `<link rel="canonical">` | `https://www.farmacerny.cz/pl/polityka-prywatnosci` |
+| `<link rel="canonical">` | `https://czechbluepoppy.cz/pl/polityka-prywatnosci` |
 | `<meta name="robots">` | `noindex` |
 | OG Title | `Polityka prywatności \| Farma Černý` |
 | OG Description | `Informacje o przetwarzaniu danych osobowych przez Farma Černý s.r.o. zgodnie z przepisami RODO.` |
@@ -26,13 +26,13 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Polityka prywatności — Farma Černý",
-  "url": "https://www.farmacerny.cz/pl/polityka-prywatnosci",
+  "url": "https://czechbluepoppy.cz/pl/polityka-prywatnosci",
   "description": "Informacje o przetwarzaniu danych osobowych przez Farma Černý s.r.o. zgodnie z Rozporządzeniem o Ochronie Danych Osobowych (RODO).",
   "inLanguage": "pl",
   "publisher": {
     "@type": "Organization",
     "name": "Farma Černý s.r.o.",
-    "url": "https://www.farmacerny.cz/"
+    "url": "https://czechbluepoppy.cz/"
   }
 }
 ```

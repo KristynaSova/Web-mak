@@ -1,4 +1,4 @@
-# Datenschutzerklärung — DE lokalizace
+﻿# Datenschutzerklärung — DE lokalizace
 > Zdrojová stránka: `ochrana-osobnich-udaju.html`
 > Cílový soubor: `de/datenschutz.html`
 
@@ -12,7 +12,7 @@
 | URL (soubor) | `de/datenschutz.html` |
 | `<title>` | `Datenschutzerklärung \| Farma Černý` |
 | `<meta description>` | `Informationen zur Verarbeitung personenbezogener Daten durch Farma Černý s.r.o. – welche Daten wir erheben, zu welchem Zweck und welche Rechte Ihnen nach der DSGVO zustehen.` |
-| `<link rel="canonical">` | `https://www.farmacerny.cz/de/datenschutz` |
+| `<link rel="canonical">` | `https://czechbluepoppy.cz/de/datenschutz` |
 | `<meta name="robots">` | `noindex` |
 | OG Title | `Datenschutzerklärung \| Farma Černý` |
 | OG Description | `Informationen zur Verarbeitung personenbezogener Daten durch Farma Černý s.r.o. gemäß DSGVO.` |
@@ -26,13 +26,13 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Datenschutzerklärung — Farma Černý",
-  "url": "https://www.farmacerny.cz/de/datenschutz",
+  "url": "https://czechbluepoppy.cz/de/datenschutz",
   "description": "Informationen zur Verarbeitung personenbezogener Daten durch Farma Černý s.r.o. gemäß Datenschutz-Grundverordnung (DSGVO).",
   "inLanguage": "de",
   "publisher": {
     "@type": "Organization",
     "name": "Farma Černý s.r.o.",
-    "url": "https://www.farmacerny.cz/"
+    "url": "https://czechbluepoppy.cz/"
   }
 }
 ```

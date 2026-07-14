@@ -1,4 +1,4 @@
-# Privacy Policy — EN localisation
+﻿# Privacy Policy — EN localisation
 > Source file: `ochrana-osobnich-udaju.html`
 > Target file: `en/privacy-policy.html`
 
@@ -12,7 +12,7 @@
 | URL (file) | `en/privacy-policy.html` |
 | `<title>` | `Privacy Policy \| Farma Černý` |
 | `<meta description>` | `Learn how Farma Černý s.r.o. collects and processes your personal data, why we need it, and what rights you hold under the General Data Protection Regulation (GDPR).` |
-| `<link rel="canonical">` | `https://www.farmacerny.cz/en/privacy-policy` |
+| `<link rel="canonical">` | `https://czechbluepoppy.cz/en/privacy-policy` |
 | `<meta name="robots">` | `noindex` |
 | OG Title | `Privacy Policy \| Farma Černý` |
 | OG Description | `How Farma Černý s.r.o. handles your personal data in accordance with GDPR.` |
@@ -26,13 +26,13 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Privacy Policy — Farma Černý",
-  "url": "https://www.farmacerny.cz/en/privacy-policy",
+  "url": "https://czechbluepoppy.cz/en/privacy-policy",
   "description": "How Farma Černý s.r.o. collects, processes and protects your personal data under the General Data Protection Regulation (GDPR).",
   "inLanguage": "en",
   "publisher": {
     "@type": "Organization",
     "name": "Farma Černý s.r.o.",
-    "url": "https://www.farmacerny.cz/"
+    "url": "https://czechbluepoppy.cz/"
   }
 }
 ```

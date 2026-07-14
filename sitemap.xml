@@ -4,294 +4,322 @@
 
   <!-- ══ Homepage ══ -->
   <url>
-    <loc>https://www.farmacerny.cz/</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/"/>
+    <loc>https://czechbluepoppy.cz/</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/en/</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/"/>
+    <loc>https://czechbluepoppy.cz/en/</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/de/</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/"/>
+    <loc>https://czechbluepoppy.cz/de/</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/pl/</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/"/>
+    <loc>https://czechbluepoppy.cz/pl/</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- ══ Český modrý mák / Blue Poppy Seeds / Blaumohn / Mak niebieski ══ -->
   <url>
-    <loc>https://www.farmacerny.cz/cesky-modry-mak</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/cesky-modry-mak"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/czech-blue-poppy-seeds-supplier"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/tschechischer-blaumohn"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/czeski-mak-niebieski"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/czech-blue-poppy-seeds-supplier"/>
+    <loc>https://czechbluepoppy.cz/cesky-modry-mak</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/cesky-modry-mak"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/czech-blue-poppy-seeds-supplier"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/tschechischer-blaumohn"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/czeski-mak-niebieski"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/czech-blue-poppy-seeds-supplier"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/en/czech-blue-poppy-seeds-supplier</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/cesky-modry-mak"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/czech-blue-poppy-seeds-supplier"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/tschechischer-blaumohn"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/czeski-mak-niebieski"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/czech-blue-poppy-seeds-supplier"/>
+    <loc>https://czechbluepoppy.cz/en/czech-blue-poppy-seeds-supplier</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/cesky-modry-mak"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/czech-blue-poppy-seeds-supplier"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/tschechischer-blaumohn"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/czeski-mak-niebieski"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/czech-blue-poppy-seeds-supplier"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/de/tschechischer-blaumohn</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/cesky-modry-mak"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/czech-blue-poppy-seeds-supplier"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/tschechischer-blaumohn"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/czeski-mak-niebieski"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/czech-blue-poppy-seeds-supplier"/>
+    <loc>https://czechbluepoppy.cz/de/tschechischer-blaumohn</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/cesky-modry-mak"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/czech-blue-poppy-seeds-supplier"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/tschechischer-blaumohn"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/czeski-mak-niebieski"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/czech-blue-poppy-seeds-supplier"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/pl/czeski-mak-niebieski</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/cesky-modry-mak"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/czech-blue-poppy-seeds-supplier"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/tschechischer-blaumohn"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/czeski-mak-niebieski"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/czech-blue-poppy-seeds-supplier"/>
+    <loc>https://czechbluepoppy.cz/pl/czeski-mak-niebieski</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/cesky-modry-mak"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/czech-blue-poppy-seeds-supplier"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/tschechischer-blaumohn"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/czeski-mak-niebieski"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/czech-blue-poppy-seeds-supplier"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- ══ Kvalita a technologie / Quality & Technology ══ -->
   <url>
-    <loc>https://www.farmacerny.cz/kvalita-technologie</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/kvalita-technologie"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/quality-technology"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/qualitaet-und-technologie"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/jakosc-i-technologia"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/quality-technology"/>
+    <loc>https://czechbluepoppy.cz/kvalita-technologie</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/kvalita-technologie"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/quality-technology"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/qualitaet-und-technologie"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/jakosc-i-technologia"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/quality-technology"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/en/quality-technology</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/kvalita-technologie"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/quality-technology"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/qualitaet-und-technologie"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/jakosc-i-technologia"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/quality-technology"/>
+    <loc>https://czechbluepoppy.cz/en/quality-technology</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/kvalita-technologie"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/quality-technology"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/qualitaet-und-technologie"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/jakosc-i-technologia"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/quality-technology"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/de/qualitaet-und-technologie</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/kvalita-technologie"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/quality-technology"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/qualitaet-und-technologie"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/jakosc-i-technologia"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/quality-technology"/>
+    <loc>https://czechbluepoppy.cz/de/qualitaet-und-technologie</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/kvalita-technologie"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/quality-technology"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/qualitaet-und-technologie"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/jakosc-i-technologia"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/quality-technology"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/pl/jakosc-i-technologia</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/kvalita-technologie"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/quality-technology"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/qualitaet-und-technologie"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/jakosc-i-technologia"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/quality-technology"/>
+    <loc>https://czechbluepoppy.cz/pl/jakosc-i-technologia</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/kvalita-technologie"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/quality-technology"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/qualitaet-und-technologie"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/jakosc-i-technologia"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/quality-technology"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- ══ Pro zpracovatele / For Processors / Für Verarbeiter ══ -->
   <url>
-    <loc>https://www.farmacerny.cz/pro-zpracovatele</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/pro-zpracovatele"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/for-processors"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/fuer-lebensmittelhersteller"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/dla-przetworcow"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/for-processors"/>
+    <loc>https://czechbluepoppy.cz/pro-zpracovatele</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/pro-zpracovatele"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/for-processors"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/fuer-lebensmittelhersteller"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/dla-przetworcow"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/for-processors"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/en/for-processors</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/pro-zpracovatele"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/for-processors"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/fuer-lebensmittelhersteller"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/dla-przetworcow"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/for-processors"/>
+    <loc>https://czechbluepoppy.cz/en/for-processors</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/pro-zpracovatele"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/for-processors"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/fuer-lebensmittelhersteller"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/dla-przetworcow"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/for-processors"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/de/fuer-lebensmittelhersteller</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/pro-zpracovatele"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/for-processors"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/fuer-lebensmittelhersteller"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/dla-przetworcow"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/for-processors"/>
+    <loc>https://czechbluepoppy.cz/de/fuer-lebensmittelhersteller</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/pro-zpracovatele"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/for-processors"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/fuer-lebensmittelhersteller"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/dla-przetworcow"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/for-processors"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/pl/dla-przetworcow</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/pro-zpracovatele"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/for-processors"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/fuer-lebensmittelhersteller"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/dla-przetworcow"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/for-processors"/>
+    <loc>https://czechbluepoppy.cz/pl/dla-przetworcow</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/pro-zpracovatele"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/for-processors"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/fuer-lebensmittelhersteller"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/dla-przetworcow"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/for-processors"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- ══ Export ══ -->
   <url>
-    <loc>https://www.farmacerny.cz/export</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/export"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/export"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/export"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/eksport"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/export"/>
+    <loc>https://czechbluepoppy.cz/export</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/export"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/export"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/export"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/eksport"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/export"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/en/export</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/export"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/export"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/export"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/eksport"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/export"/>
+    <loc>https://czechbluepoppy.cz/en/export</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/export"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/export"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/export"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/eksport"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/export"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/de/export</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/export"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/export"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/export"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/eksport"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/export"/>
+    <loc>https://czechbluepoppy.cz/de/export</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/export"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/export"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/export"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/eksport"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/export"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/pl/eksport</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/export"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/export"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/export"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/eksport"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/export"/>
+    <loc>https://czechbluepoppy.cz/pl/eksport</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/export"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/export"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/export"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/eksport"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/export"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- ══ Kontakt / Contact ══ -->
   <url>
-    <loc>https://www.farmacerny.cz/kontakt</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/kontakt"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/contact"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/kontakt"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/kontakt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/contact"/>
+    <loc>https://czechbluepoppy.cz/kontakt</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/kontakt"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/kontakt"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/kontakt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/contact"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/en/contact</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/kontakt"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/contact"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/kontakt"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/kontakt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/contact"/>
+    <loc>https://czechbluepoppy.cz/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/kontakt"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/kontakt"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/kontakt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/contact"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/de/kontakt</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/kontakt"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/contact"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/kontakt"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/kontakt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/contact"/>
+    <loc>https://czechbluepoppy.cz/de/kontakt</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/kontakt"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/kontakt"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/kontakt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/contact"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/pl/kontakt</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/kontakt"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/contact"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/kontakt"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/kontakt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/contact"/>
+    <loc>https://czechbluepoppy.cz/pl/kontakt</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/kontakt"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/kontakt"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/kontakt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/contact"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- ══ Rodinná tradice / Family Heritage / Familientradition ══ -->
   <url>
-    <loc>https://www.farmacerny.cz/rodinna-tradice-farma-cerny</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/rodinna-tradice-farma-cerny"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/family-heritage"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/familientradition"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/tradycja-rodzinna"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/family-heritage"/>
+    <loc>https://czechbluepoppy.cz/rodinna-tradice-farma-cerny</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/rodinna-tradice-farma-cerny"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/family-heritage"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/familientradition"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/tradycja-rodzinna"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/family-heritage"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/en/family-heritage</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/rodinna-tradice-farma-cerny"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/family-heritage"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/familientradition"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/tradycja-rodzinna"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/family-heritage"/>
+    <loc>https://czechbluepoppy.cz/en/family-heritage</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/rodinna-tradice-farma-cerny"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/family-heritage"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/familientradition"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/tradycja-rodzinna"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/family-heritage"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/de/familientradition</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/rodinna-tradice-farma-cerny"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/family-heritage"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/familientradition"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/tradycja-rodzinna"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/family-heritage"/>
+    <loc>https://czechbluepoppy.cz/de/familientradition</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/rodinna-tradice-farma-cerny"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/family-heritage"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/familientradition"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/tradycja-rodzinna"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/family-heritage"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.farmacerny.cz/pl/tradycja-rodzinna</loc>
-    <xhtml:link rel="alternate" hreflang="cs"        href="https://www.farmacerny.cz/rodinna-tradice-farma-cerny"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://www.farmacerny.cz/en/family-heritage"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://www.farmacerny.cz/de/familientradition"/>
-    <xhtml:link rel="alternate" hreflang="pl"        href="https://www.farmacerny.cz/pl/tradycja-rodzinna"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.farmacerny.cz/en/family-heritage"/>
+    <loc>https://czechbluepoppy.cz/pl/tradycja-rodzinna</loc>
+    <xhtml:link rel="alternate" hreflang="cs"        href="https://czechbluepoppy.cz/rodinna-tradice-farma-cerny"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://czechbluepoppy.cz/en/family-heritage"/>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://czechbluepoppy.cz/de/familientradition"/>
+    <xhtml:link rel="alternate" hreflang="pl"        href="https://czechbluepoppy.cz/pl/tradycja-rodzinna"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://czechbluepoppy.cz/en/family-heritage"/>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
