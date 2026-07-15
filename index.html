@@ -27,6 +27,7 @@
     href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:wght@400;500;600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
     rel="stylesheet" />
 
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
@@ -145,7 +146,7 @@
     <!-- Hero Section -->
     <section class="hero">
       <div class="hero-bg">
-        <img src="Obrazky/makovice_farma_cerny.jpg" alt="Makovice na poli" />
+        <img fetchpriority="high" src="Obrazky/makovice_farma_cerny.jpg" alt="Makovice na poli" />
       </div>
       <div class="hero-content">
         <span class="hero-badge">Tradiční české zemědělství</span>
@@ -223,7 +224,7 @@
       <div class="container">
         <div class="product-grid">
           <div class="product-image" style="border-radius: var(--radius-lg); overflow: hidden">
-            <img src="Obrazky/makovice-homepage.jpg" alt="Český modrý mák" style="width: 100%" />
+            <img loading="lazy" src="Obrazky/makovice-homepage.jpg" alt="Český modrý mák" style="width: 100%" />
           </div>
           <div class="product-info">
             <span class="section-subtitle" style="color: var(--color-secondary)">Náš produkt</span>
@@ -236,19 +237,19 @@
             </p>
             <ul style="margin-bottom: 40px; display: grid; gap: 15px">
               <li style="display: flex; align-items: center; gap: 10px">
-                <img src="Ikony/icons8-opium-poppy-24.png" alt="" style="width: 20px; height: 20px; flex-shrink: 0; transform: rotate(25deg)">
+                <img loading="lazy" src="Ikony/icons8-opium-poppy-24.png" alt="" style="width: 20px; height: 20px; flex-shrink: 0; transform: rotate(25deg)">
                 Vysoká čistota a stabilní parametry
               </li>
               <li style="display: flex; align-items: center; gap: 10px">
-                <img src="Ikony/icons8-opium-poppy-24.png" alt="" style="width: 20px; height: 20px; flex-shrink: 0; transform: rotate(25deg)">
+                <img loading="lazy" src="Ikony/icons8-opium-poppy-24.png" alt="" style="width: 20px; height: 20px; flex-shrink: 0; transform: rotate(25deg)">
                 Testování v akreditovaných laboratořích
               </li>
               <li style="display: flex; align-items: center; gap: 10px">
-                <img src="Ikony/icons8-opium-poppy-24.png" alt="" style="width: 20px; height: 20px; flex-shrink: 0; transform: rotate(25deg)">
+                <img loading="lazy" src="Ikony/icons8-opium-poppy-24.png" alt="" style="width: 20px; height: 20px; flex-shrink: 0; transform: rotate(25deg)">
                 Balení v big-bag 500–1200 kg
               </li>
               <li style="display: flex; align-items: center; gap: 10px">
-                <img src="Ikony/icons8-opium-poppy-24.png" alt="" style="width: 20px; height: 20px; flex-shrink: 0; transform: rotate(25deg)">
+                <img loading="lazy" src="Ikony/icons8-opium-poppy-24.png" alt="" style="width: 20px; height: 20px; flex-shrink: 0; transform: rotate(25deg)">
                 Logistika kamionových dodávek
               </li>
             </ul>
@@ -279,7 +280,7 @@
             <a href="rodinna-tradice-farma-cerny.html" class="btn btn-outline">Více o historii rodiny</a>
           </div>
           <div class="history-image" style="position: relative">
-            <img src="Obrazky/onas_farma_cerny_pradeda2.jpg" alt="Historie farmy" style="border-radius: var(--radius-lg);" />
+            <img loading="lazy" src="Obrazky/onas_farma_cerny_pradeda2.jpg" alt="Historie farmy" style="border-radius: var(--radius-lg);" />
           </div>
         </div>
       </div>
