@@ -152,7 +152,7 @@ document.querySelectorAll('.accordion').forEach(accordion => {
 
 // ─── Web3Forms — access key ───────────────────────────────────────────────────
 // Při předání webu klientovi zde změňte klíč (nový klíč na web3forms.com/create)
-const WEB3FORMS_ACCESS_KEY = '5e67d880-8c37-4671-a2f1-e033277caa0a';
+const WEB3FORMS_ACCESS_KEY = '688590e6-5091-4f3b-bbc4-5b995bff8e35';
 
 // ─── Kontaktní formulář ───────────────────────────────────────────────────────
 const contactForm = document.querySelector('#contact-form');
